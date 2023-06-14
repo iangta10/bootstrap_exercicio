@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(247, 247, 31, 0.815);
+    color: black;
+}
+
+#about{
+    padding: 32px 0;
+    display: flex;
+}
+
+#about .carousel{
+    height: 600px;
+}
+
+#about .carousel img{
+    height: 600px;
+}
+
+#products .prod{
+    padding-bottom: 32px;
+}
+
+#products img{
+    height: 270px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .col-xl-7{
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .col-xl-7{
+        padding-top: 25px;
+    }
+    
+    #about .carousel{
+        height: 300px;
+    }
+    
+    #about .carousel img{
+        height: 300px;
+    }
+}

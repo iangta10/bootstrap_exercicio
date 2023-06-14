@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Padaria</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>EBAC Padaria</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#about">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#products">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div id="carousel-exemplo" class="carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img class="d-block w-100" src="./images/fachada.jpg" alt="">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100" src="./images/doces.jpg" alt="">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100" src="./images/bakery.jpg" alt="">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xl-7">                    
+                    <div class="container">                
+                        <h2>Sobre Nós</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero quidem assumenda. Sed, accusantium! Dignissimos possimus, minus libero tempore excepturi delectus praesentium, obcaecati suscipit et, consequatur at? Sapiente, laboriosam totam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas nisi nemo accusamus eius eum odit, voluptatem perferendis eligendi iure necessitatibus ab assumenda omnis distinctio earum deserunt eveniet, incidunt adipisci.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero quidem assumenda. Sed, accusantium! Dignissimos possimus, minus libero tempore excepturi delectus praesentium, obcaecati suscipit et, consequatur at? Sapiente, laboriosam totam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas nisi nemo accusamus eius eum odit, voluptatem perferendis eligendi iure necessitatibus ab assumenda omnis distinctio earum deserunt eveniet, incidunt adipisci.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container">
+                <h2>Produtos</h2>                
+                <div class="row ">                    
+                        <div class="prod col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                            <div class="card h-100 ">
+                                <img class="card-image-top" src="./images/bread.jpg" alt="Pão caseiro fatiado">
+                                <div class="card-body">
+                                    <h3 class="card-title">Pão caseiro</h3>
+                                    <p class="card-text">
+                                        Feito com amor e dedicação, nosso pão caseiro é macio, aromático e levemente crocante. Com uma casquinha dourada, é perfeito para acompanhar refeições ou saborear com manteiga.
+                                    </p>                                    
+                                    <div class="price">
+                                        <strong>R$8,99/Un</strong>
+                                    </div>
+                                    <button class="btn btn-success" type="button">Adicionar ao carrinho</button>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                            <div class="card h-100">
+                                <img class="card-image-top" src="./images/paodequeijo.jpg" alt="Pão de queijo e cafe de fundo">
+                                <div class="card-body">
+                                    <h3 class="card-title">Pão de Queijo</h3>
+                                    <p class="card-text">
+                                        Deliciosamente irresistível, nosso pão de queijo é macio por dentro e crocante por fora. Com um sabor único e queijo derretido, é uma opção deliciosa para qualquer momento do dia.
+                                    </p>                                    
+                                    <div class="price">
+                                        <strong>R$0,99/Un</strong>
+                                    </div>
+                                    <button class="btn btn-success" type="button">Adicionar ao carrinho</button>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="prod col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                            <div class="card h-100">
+                                <img class="card-image-top" src="./images/doughnut.jpg" alt="Donut de chocolate com granulado colorido">
+                                <div class="card-body">
+                                    <h3 class="card-title">Donut</h3>
+                                    <p class="card-text">
+                                        Nossos donuts são uma tentação para os amantes de doces. Fofinhos, recheados e com coberturas deliciosas, são uma explosão de sabor e alegria em cada mordida.
+                                    </p>                                    
+                                    <div class="price">
+                                        <strong>R$1,99/Un</strong>
+                                    </div>
+                                    <button class="btn btn-success" type="button">Adicionar ao carrinho</button>                                    
+                                </div>
+                            </div>                             
+                        </div>                    
+                </div>
+        </section>
+            </div>
+    </div>
+    
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
